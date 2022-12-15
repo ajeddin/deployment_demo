@@ -15,6 +15,7 @@ var rollbar = new Rollbar({
 })
 
 rollbar.log('Hello world!')
+rollbar.log('LAB TEST !')
 
 
 app.get('/',(req,res)=>{
